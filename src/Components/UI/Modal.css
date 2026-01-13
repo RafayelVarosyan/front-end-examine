@@ -1,0 +1,22 @@
+.modalRoot{ 
+  position: fixed; inset: 0; z-index: 200; 
+}
+.modalBackdrop{
+   position:absolute; inset:0; background: rgba(0,0,0,.45); 
+}
+.modalPanel{
+  position: relative;
+  z-index: 1;
+  width: min(40rem, calc(100% - 2rem));
+  margin: 10vh auto 0;
+  background:#fff;
+  padding: 1.5rem;
+  box-shadow: 0 24px 70px rgba(0,0,0,.25);
+ 
+}
+.modalClose{
+  cursor:pointer;
+  background-color: transparent;
+  border: none;
+  margin-bottom: 1rem;
+}
